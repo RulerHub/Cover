@@ -1,13 +1,26 @@
 ﻿@inherits LayoutComponentBase
 
-<nav>
-    <h2>RulerHub</h2>
-    <NavLink > Nav 1</NavLink>
-</nav>
+<div class="nav-cover fixed-top align-content-between">
+    <h3 class="float-md-start mb-0">RulerHub</h3>
+    <nav class="nav nav-masthead justify-content-center float-md-end">
+        <a class="nav-link fw-bold py-1 px-0 active" aria-current="page" href="#">Home</a>
+        <a class="nav-link fw-bold py-1 px-0" href="#">Entrar</a>
+        <a class="nav-link fw-bold py-1 px-0" href="#">Registrarse</a>
+    </nav>
+</div>
 <div>
     @Body
 </div>
 
+<div class="nav-cover fixed-bottom">
+    <nav class="nav nav-masthead justify-content-center">
+        <a class="nav-link fw-bold py-1 px-0" href="#">Twitter</a>
+        <a class="nav-link fw-bold py-1 px-0" href="#">EMail</a>
+        <a class="nav-link fw-bold py-1 px-0" href="#">Telegram</a>
+    </nav>
+</div>
+
+<video autoplay muted loop class="bg-video"><source src="Crosswalk-Rain.mp4">Crosswalk-Rain</video>
 
 <div id="blazor-error-ui">
     An unhandled error has occurred.
